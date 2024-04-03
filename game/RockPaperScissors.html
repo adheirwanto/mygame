@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="bg-blue-400 p-5 m-5 rounded-lg">
+	<div class="text-center font-bold text-3xl bg-blue-500 text-white m-10 p-5 rounded-lg ">
+		<i>Rock Paper Scissors</i>
+	</div>
+	<h2 class="text-center text-1xl font-semibold pr-10 text-white">Computer: <span id="pc"></span></h2>
+	<h2 class="text-center text-1xl font-semibold pr-10 text-white mb-5">Player: <span id="player"></span></h2>
+	<h1 id="hasil" class="text-center font-bold pr-10 text-3xl pt-50 text-white">Let's start!</h1>
+	<div class="text-center bg-blue-500 m-10 p-5 text-3xl rounded-lg ">
+		<button onclick="play()" id="scissors" class="bg-blue-300 p-5 rounded-lg mr-5 hover:bg-blue-800 max-md:p-2 max-md:mr-1">✌</button>
+		<button onclick="play()" id="paper" onclick="paper()" class="bg-blue-300 p-5 rounded-lg mr-5 hover:bg-blue-800 max-md:p-2 max-md:mr-1">✋</button>
+		<button onclick="play()" id="rock" onclick="rock()" class="bg-blue-300 p-5 rounded-lg mr-5 hover:bg-blue-800 max-md:p-2 max-md:mr-1">👊</button><br>
+		
+	</div>
+	<script src="rpc.js"></script>
+</div>
+</body>
+</html>
